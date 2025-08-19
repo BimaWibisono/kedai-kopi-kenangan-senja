@@ -39,9 +39,9 @@ document.addEventListener("click", function (e) {
   }
 
   if (
-    !shopingCartButto.contains(e.target) &&
+    !shoppingCartButton.contains(e.target) &&
     !shoppingCart.contains(e.target)
   ) {
-    searchForm.classList.remove("active");
+    shoppingCart.classList.remove("active");
   }
 });
