@@ -491,7 +491,7 @@ footer .credit a {
 /* Modal Box */
 /* Item Detail */
 .modal {
-  display: flex;
+  display: none;
   position: fixed;
   z-index: 9999;
   left: 0;
@@ -510,6 +510,19 @@ footer .credit a {
   padding: 1.2rem;
   border: 1px solid #666;
   width: 80%;
+  animation: animateModal 0.5s;
+}
+
+/* Modal Animation */
+@keyframes animateModal {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
 }
 
 .modal-container .close-icon {
@@ -537,11 +550,13 @@ footer .credit a {
 .modal-content a {
   display: flex;
   gap: 1rem;
-  width: 12rem;
+  width: 17rem;
   background-color: var(--primary);
   color: #fff;
   margin-top: 1rem;
   padding: 1rem 1.6rem;
+  justify-content: center;
+  align-items: center;
 }
 
 /*  Media Queries */
@@ -636,10 +651,10 @@ footer .credit a {
   .contact .row form {
     padding-top: 0;
   }
-}
 
-.modal-content {
-  flex-wrap: wrap;
+  .modal-content {
+    flex-wrap: wrap;
+  }
 }
 
 /*  Mobile Phone  */
