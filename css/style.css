@@ -263,7 +263,7 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url("../kedai-kopi-kenangan-senja/img/header-bg.jpeg");
+  background-image: url("../img/header-bg.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -290,11 +290,11 @@ body {
   position: absolute;
   inset: 0;
   /* background: salmon; */
-  -webkit-mask-image: url(../kedai-kopi-kenangan-senja/img/header-bg.svg);
+  -webkit-mask-image: url(../img/header-bg.svg);
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: cover;
   -webkit-mask-position: center;
-  mask-image: url(../kedai-kopi-kenangan-senja/img/header-bg.svg);
+  mask-image: url(../img/header-bg.svg);
   mask-repeat: no-repeat;
   mask-size: cover;
   mask-position: center;
